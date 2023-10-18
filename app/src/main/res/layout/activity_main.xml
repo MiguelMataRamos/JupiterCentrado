@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:id="@+id/linear">
 
 
             <ImageView
@@ -34,8 +35,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/texto"
                 app:layout_constraintStart_toStartOf="parent"
                 />
-
-
 
     </LinearLayout>
 
